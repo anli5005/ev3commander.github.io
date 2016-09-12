@@ -6,8 +6,20 @@ EDITING RULES
 
 <pre>---
 layout: a
-title: <whateveryoulikehere>
+title: [whatevertitleyouwant]
 ---</pre>
 
 2. Do not touch anyone else's page.
 3. After the 4 lines, put whatever you like. You do not need to put `<html>`,`<body>`, etc.
+
+
+STUFF YOU CAN USE
+---
+Here are some stuff you can use in your page. I have included it in the layout so that you can access the stuff from every page.
+- Bootstrap
+- w3.CSS
+- jQuery
+- MathJax
+- Angular.JS
+- Font Awesome/Material Icons-- these allow you to make cool icons on your pages!
+You can study all of these on [w3schools](//w3schools.com)
