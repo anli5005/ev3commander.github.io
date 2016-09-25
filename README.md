@@ -22,4 +22,4 @@ Here are some stuff you can use in your page. I have included it in the layout s
 - MathJax
 - Angular.JS
 - Font Awesome/Material Icons-- these allow you to make cool icons on your pages!
-You can study all of these on [w3schools](//w3schools.org)
+You can study all of these on [w3schools](http://w3schools.org)
