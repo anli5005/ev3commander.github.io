@@ -23,8 +23,27 @@
     {% include mathjax.html %}
   </head>
   <body>
+    <ul class="w3-navbar w3-green" style="padding:0">
+  <li><a href="/">Home</a></li>
+  <li><a href="/TeamInfo/">Team Info</a></li>
+  <li><a href="/extras/">Extras/Help</a></li>
+  <li><a href="/meetings/">Meeting Videos</a></li>
+  <li><a href="/hw/">Home Work</a></li>
+  <li class="w3-dropdown-hover w3-hover-orange">
+  <a class="w3-hover-orange" href="#">Individual pages <i class="fa fa-caret-down"></i></a>
+  <div class="w3-dropdown-content w3-white w3-card-4">
+    <a href="/aaron/">Aaron</a>
+    <a href="/anthony/">Anthony</a>
+    <a href="/ben/">Ben</a>
+    <a href="/marvin/">Marvin</a>
+    <a href="/michael/">Michael</a>
+    <a href="/myra/">Myra</a>
+    <a href="/ryan/">Ryan</a>
+    <a href="/cp/">Coach Playground</a>
+  </div>
+</li>
 
-
+<li><a href="/links/">Links</a></li>
             <div class="w3-top">
       <div class="w3-bar w3-light-grey">
   <a href="/" class="w3-bar-item w3-button">Home</a>
@@ -43,13 +62,11 @@
       <a href="/michael/" class="w3-bar-item w3-button">Michael</a>
       <a href="/ryan/" class="w3-bar-item w3-button">Ryan</a>
       <a href="/cp/" class="w3-bar-item w3-button">Coach Playground</a>
-     
  </div>
-      <a href="/links/" class="w3-bar-item w3-button">Links</a>
   </div>
 </div>
       </div>
-
+</ul>
     {{ content }}
     
   </body>
